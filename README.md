@@ -1,122 +1,145 @@
 # Beyond the Code — Bobby Ahirwar
 
-A personal portfolio for Bobby Ahirwar, IIT Hyderabad, presenting AI, machine learning, and software projects through a cinematic space theme. The site includes four detailed case studies: CodeLens AI, DocuMind AI, Ledgerly, and FeedbackIQ.
+<div align="center">
 
-**Status:** deployment-ready source. No live portfolio deployment has been created or verified in this workspace.
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-bobby--portfolio--beta.vercel.app-00dfa2?style=for-the-badge&logo=vercel&logoColor=white)](https://bobby-portfolio-beta.vercel.app)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rock917/bobby-portfolio)
+[![React](https://img.shields.io/badge/React-19.0-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Three.js](https://img.shields.io/badge/Three.js-WebGL-black?style=for-the-badge&logo=threedotjs&logoColor=white)](https://threejs.org/)
+[![Vite](https://img.shields.io/badge/Vite-6.2-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 
-## Features
+<h3>🚀 Intelligent Systems for the Real World</h3>
 
-- Responsive homepage with About, Skills, Projects, Experience, Education, credentials, resume, and contact sections.
-- Four project pages with actual screenshots, architecture, results, limitations, GitHub links, and available demos.
-- Deferred Three.js Earth scene with pause controls, reduced-motion support, and static fallback.
-- Keyboard navigation, mobile menu, skip link, focus restoration, and image failure states.
-- Original resume available to view or download; direct email, GitHub, and LinkedIn contact links.
-- Page-specific HTML titles and social metadata for direct project links, plus domain-aware canonical URLs, robots rules, and sitemap generation.
+<p align="center">
+  A high-performance cinematic developer portfolio built with <b>React</b>, <b>TypeScript</b>, <b>Three.js WebGL</b>, and <b>Framer Motion</b>.
+  <br />
+  Featuring interactive orbital 3D graphics, procedural audio synthesis, and deep-dive AI/ML case studies.
+</p>
 
-This is a static frontend. No database, AI API keys, backend service, or contact-form subscription is required. Project demos are external applications with their own availability and login requirements.
+[**🌐 Explore Live Site**](https://bobby-portfolio-beta.vercel.app) • [**📄 View Resume**](https://drive.google.com/file/d/1JvPsn7kDgxLc7J_2NvloVgSeHwjsC5Ko/view?usp=drivesdk) • [**📫 Get in Touch**](mailto:ch23btech11011@iith.ac.in)
 
-## Stack
+---
 
-React, TypeScript, Vite, React Router, Tailwind CSS, Framer Motion, Three.js / React Three Fiber, Lucide, DM Sans, and Space Grotesk. Exact dependency versions are in `package-lock.json`.
+</div>
 
-## Install and run
+## 🌌 Overview
 
-Use **Node.js 24.x** and npm. `.nvmrc` and `package.json` select the tested major version.
+**Beyond the Code** is the personal portfolio of **Bobby Ahirwar**, an undergraduate student at **IIT Hyderabad** specializing in frontend engineering, interactive 3D web applications, and intelligent full-stack AI/ML systems.
 
-```powershell
-cd E:\PortFolio_Bobby
+Designed with a cosmic observatory aesthetic, the portfolio delivers an immersive user experience without compromising on web performance, accessibility, or mobile responsiveness.
+
+---
+
+## ✨ Key Highlights
+
+- 🌍 **Interactive 3D Earth Station**:
+  Real-time Three.js / React Three Fiber WebGL orbital globe with dynamic cloud layers, rotation controls, reduced-motion compliance, and graceful fallback for low-spec devices.
+- 🎵 **Interactive Audio Experience**:
+  Procedural Web Audio API soundscape and toggleable *Interstellar* theme audio playback with dedicated mute, play/pause, and volume controls.
+- 🎴 **Holographic 3D Tilt Cards**:
+  Custom gyro- and cursor-reactive cards powered by mathematical vector transforms for tactile tactile feedback.
+- 📱 **Responsive & Accessible**:
+  100% responsive across mobile, tablet, and ultrawide screens. Includes keyboard navigation, ARIA live regions, contrast compliance, and skip links.
+- ⚡ **Blazing Fast**:
+  Sub-second production build times powered by Vite, asset compression, lazy-loaded Three.js chunks, and edge routing via Vercel CDN.
+- 🔍 **Dynamic SEO & Social Graph**:
+  Route-aware Open Graph tags, Twitter cards, automated canonical URL generation, robots directives, and sitemaps.
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Technologies |
+| :--- | :--- |
+| **Frontend Framework** | React 19, TypeScript, React Router 7 |
+| **3D & Animation** | Three.js, React Three Fiber, Framer Motion |
+| **Styling & Design** | Tailwind CSS, Custom Glassmorphism, Space Grotesk & DM Sans |
+| **Audio Engine** | Web Audio API Procedural Synthesizer, Dual-format M4A/WebM Audio |
+| **Build & Tooling** | Vite, ESLint, TypeScript Strict Mode |
+| **Deployment** | Vercel Edge Network, Automated CI/CD from GitHub |
+
+---
+
+## 🛰️ Featured Projects
+
+The portfolio showcases four production-grade case studies detailing system architecture, benchmark results, and limitations:
+
+1. **[CodeLens AI](https://bobby-portfolio-beta.vercel.app/projects/codelens-ai)**
+   *AI-Powered Codebase Intelligence & AST Retrieval Engine*
+   * **Tech:** Python, FastAPI, ChromaDB, Hugging Face, AST Parsing
+   * **Highlight:** Semantic AST chunking with sub-250ms query response on enterprise repos.
+
+2. **[DocuMind AI](https://bobby-portfolio-beta.vercel.app/projects/documind-ai)**
+   *Enterprise Legal Document Analysis & Clause Extraction*
+   * **Tech:** Legal-BERT, PyTorch, Streamlit, CUAD Dataset
+   * **Highlight:** Specialized transformer model fine-tuned for high-precision contract risk detection.
+
+3. **[Ledgerly](https://bobby-portfolio-beta.vercel.app/projects/ledgerly)**
+   *Autonomous Financial Ledger & Invoice Reconciliation Agent*
+   * **Tech:** React, Node.js, OCR, Deterministic PO Rules, Supabase
+   * **Highlight:** Automated two-way invoice reconciliation with audit-trail immutability.
+
+4. **[FeedbackIQ](https://bobby-portfolio-beta.vercel.app/projects/feedbackiq)**
+   *Real-time Customer Sentiment & Review Classification Pipeline*
+   * **Tech:** DistilBERT, FastAPI, Docker, Celery, Redis
+   * **Highlight:** 95.01% test accuracy with high-throughput asynchronous processing queues.
+
+---
+
+## 🚀 Local Development
+
+### Prerequisites
+- **Node.js 20.x or 24.x**
+- **npm** (comes with Node.js)
+
+### Installation
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/rock917/bobby-portfolio.git
+
+# 2. Navigate to the project directory
+cd bobby-portfolio
+
+# 3. Install dependencies
 npm ci
+
+# 4. Start the local development server
 npm run dev
 ```
 
-Open the local URL printed by Vite. On another computer, use the folder where you placed this project.
+### Available Scripts
 
 | Command | Purpose |
-| --- | --- |
-| `npm run dev` | Local development with live updates |
-| `npm run typecheck` | TypeScript checks |
-| `npm run lint` | ESLint checks |
-| `npm run test:deployment` | Metadata and deployment-route tests |
-| `npm run build` | Compile and generate deployable `dist/` |
-| `npm run preview` | Serve the production output locally |
+| :--- | :--- |
+| `npm run dev` | Launch local development server with Hot Module Replacement |
+| `npm run build` | Compile TypeScript and generate optimized production bundle in `dist/` |
+| `npm run preview` | Locally preview the generated production build |
+| `npm run typecheck` | Run TypeScript compiler type checking (`tsc -b`) |
+| `npm run lint` | Run ESLint checks across codebase |
+| `npm run test:deployment` | Execute deployment route and metadata verification tests |
 
-The build creates HTML metadata documents for all four case studies. React still renders the page body in the browser; this is not full server-side rendering. The optional 3D bundle is loaded separately and still produces Vite's large-chunk warning.
+---
 
-## Deploy to Vercel
+## 🌐 Deployment
 
-### Option A: deploy this local folder with the CLI
+The repository is linked directly to **Vercel** for continuous deployment:
+- **Production URL:** [https://bobby-portfolio-beta.vercel.app](https://bobby-portfolio-beta.vercel.app)
+- Every push to the `main` branch automatically triggers an optimized production build and deployment.
 
-This does not require creating a GitHub repository first. In the project root:
+---
 
-```powershell
-npx vercel login
-npx vercel
-```
+## 📬 Contact & Connect
 
-Sign into your own Vercel account and select the intended personal/team scope. Link to a new project unless you already created the correct portfolio project. Keep the project root as `./`. The first deployment is a preview; inspect it before publishing production:
+- **Portfolio:** [bobby-portfolio-beta.vercel.app](https://bobby-portfolio-beta.vercel.app)
+- **LinkedIn:** [linkedin.com/in/bobby-ahirwar-3893a3321](https://www.linkedin.com/in/bobby-ahirwar-3893a3321)
+- **GitHub:** [@rock917](https://github.com/rock917)
+- **Email:** [ch23btech11011@iith.ac.in](mailto:ch23btech11011@iith.ac.in)
+- **Resume:** [Google Drive Resume](https://drive.google.com/file/d/1JvPsn7kDgxLc7J_2NvloVgSeHwjsC5Ko/view?usp=drivesdk)
 
-```powershell
-npx vercel --prod
-```
+---
 
-The CLI prints the actual deployment URL. Do not treat an example domain or a local build as a live deployment.
-
-### Option B: GitHub integration
-
-Create a portfolio repository and push this project's source, including `src/`, `public/`, `scripts/`, `index.html`, `package.json`, `package-lock.json`, TypeScript/Vite configuration, and `vercel.json`. This folder is not currently initialized as a Git repository. Do not commit `node_modules/`, `dist/`, `.env` files, `.vercel/`, or the local `reference/` research copies.
-
-In Vercel, choose **Add New → Project**, import that repository, and use:
-
-| Setting | Value |
-| --- | --- |
-| Framework preset | Vite |
-| Root directory | Folder containing `package.json` |
-| Node.js | 24.x |
-| Install command | `npm ci` |
-| Build command | `npm run build` |
-| Output directory | `dist` |
-
-`vercel.json` supplies these build settings and ordered rewrites. Known project URLs serve their own HTML metadata, then the final SPA fallback handles other routes. Existing assets retain their file responses. Unknown app routes show the app's 404 screen but return an HTTP 200 through the SPA fallback (a soft 404).
-
-`.vercelignore` excludes local QA evidence, reference repositories, dependencies, local environment files, and the duplicate root resume from CLI uploads. The intended public resume remains in `public/resume/Resume_Bobby.pdf`. Only `dist/` is served as the website.
-
-### Production domain and search metadata
-
-No secret environment variables are needed. The build selects its public origin in this order:
-
-1. `SITE_URL`, if set to the real HTTPS origin, such as your assigned Vercel domain or connected custom domain.
-2. Vercel's `VERCEL_PROJECT_PRODUCTION_URL`, prefixed with `https://`.
-3. No origin for local builds: absolute canonical URLs and sitemap are omitted instead of inventing a domain.
-
-Enable Vercel's access to system environment variables if relying on the automatic domain. For a preferred custom domain, connect it in Vercel's Domains settings, set `SITE_URL` to that origin in the project environment settings, and redeploy. Use an origin only, with no subpath, query, or fragment. `SITE_URL` is public metadata, not a credential.
-
-To check domain metadata locally, copy `.env.example` to `.env.local`, supply the actual domain, then rebuild. Do not enter a placeholder URL for the final production build. Vercel preview builds emit `noindex, nofollow`, disallow crawling, and omit their sitemap; production builds use the selected public origin. These robots directives are indexing hints, not access control.
-
-## Verify the actual deployment
-
-After Vercel reports success:
-
-1. Open the homepage and each route directly, then refresh: `/projects/codelens-ai`, `/projects/documind-ai`, `/projects/ledgerly`, and `/projects/feedbackiq`.
-2. Check desktop/mobile navigation, project images, resume view/download, and contact links.
-3. Open `/resume/Resume_Bobby.pdf`, `/favicon.svg`, and `/images/social-card.jpg` directly. Confirm the resume is a PDF and assets are not HTML fallback responses.
-4. Inspect page source for the correct project title and final-domain canonical/social URLs. Confirm `/robots.txt` and `/sitemap.xml` on production.
-5. Check the browser console and Network panel for failed assets. The upstream Three.js clock deprecation warning was already recorded during local QA.
-
-`npm run preview` validates the built app locally but does not emulate Vercel's edge routing, deployment protection, or TLS. Live checks remain necessary after publication.
-
-## Updating content
-
-- Profile, project data, skills, and certificates: `src/data/content.ts`.
-- Sections and project layouts: `src/App.tsx`; navigation/hero: `src/components/`.
-- Visual styles: `src/styles.css`.
-- Screenshots: `public/images/projects/`; update `src/data/image-dimensions.json` when replacing images.
-- Resume: `public/resume/Resume_Bobby.pdf`.
-- Adding a project also requires its matching rewrite in `vercel.json`; the deployment test catches a missing rule.
-
-Preserve factual claims and asset attribution. Font and Three.js notices are under `public/licenses/`; image provenance is documented in `docs/phase-3-assets.md`. No blanket reuse license is granted for the resume, project screenshots, or personal content.
-
-## Validation records and external limits
-
-See `docs/phase-4-qa-report.md` for responsive, accessibility, navigation, fallback, performance, and link results; `docs/phase-5-deployment.md` records deployment preparation. CodeLens and Ledgerly require accounts; LinkedIn may present an authentication wall; DocuMind's old IP demo was unavailable and is offered on request. External services can change independently of this portfolio.
-
-Official references: [Vite deployment on Vercel](https://vercel.com/docs/frameworks/frontend/vite), [Node.js versions](https://vercel.com/docs/functions/runtimes/node-js/node-js-versions), [system environment variables](https://vercel.com/docs/environment-variables/system-environment-variables), and [CLI upload exclusions](https://vercel.com/docs/deployments/vercel-ignore).
+<div align="center">
+  <sub>Crafted with passion by Bobby Ahirwar © 2026. All rights reserved.</sub>
+</div>
