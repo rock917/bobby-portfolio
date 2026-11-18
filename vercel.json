@@ -1,0 +1,15 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "vite",
+  "installCommand": "npm ci",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/projects/codelens-ai", "destination": "/projects/codelens-ai.html" },
+    { "source": "/projects/documind-ai", "destination": "/projects/documind-ai.html" },
+    { "source": "/projects/ledgerly", "destination": "/projects/ledgerly.html" },
+    { "source": "/projects/feedbackiq", "destination": "/projects/feedbackiq.html" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}

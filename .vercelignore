@@ -1,0 +1,10 @@
+node_modules
+dist
+docs
+reference
+.git
+.env*
+Resume_Bobby.pdf
+*.tsbuildinfo
+scripts/qa-preview.mjs
+scripts/*.test.mjs
