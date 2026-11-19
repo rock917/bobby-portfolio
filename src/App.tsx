@@ -265,10 +265,6 @@ function Home() {
                 I focus on delivering clean user experiences grounded in solid
                 engineering.
               </p>
-              <p className="human-note">
-                Away from the keyboard: yoga, cricket, and community service
-                through NSS.
-              </p>
             </div>
 
             {/* 3D Telemetry Stats Grid */}
